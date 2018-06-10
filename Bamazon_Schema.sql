@@ -11,17 +11,17 @@ CREATE TABLE products(
 	PRIMARY KEY(id)
 );
 
-INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Brooks Launch 2', 'Running Shoes', 99, 12);
-INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Adidas Supernova Glide 8', 'Running Shoes', 129.95, 20);
-INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Mizuno Wave Rider 18', 'Running Shoes', 119.95, 10);
-INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike LUNARGLIDE 8', 'Running Shoes', 119.95, 33);
-INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Men\'s Running Tee', 'Apparel', 70, 10);
-INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Men\'s Running Tank', 'Apparel', 45, 12);
-INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Women\'s Running Tee', 'Apparel', 75, 40);
-INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Women\'s Running Tank', 'Apparel', 50, 3);
-INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Hydration Belt', 'Accessories', 55, 4);
-INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Headlamp', 'Accessories', 25, 20);
-INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('GPS Watch', 'Electronics', 299.99, 2);
+INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Air Queens 2', 'Athletic Shoes', 299, 10);
+INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Air Queens 3', 'Athletic Shoes', 399, 20);
+INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Air Queens 4', 'Athletic Shoes', 499, 10);
+INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Air Queens 5', 'Athletic Shoes', 599, 20);
+INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Men\'s Hotdog T', 'Apparel', 50, 10);
+INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Men\'s Cool Tank', 'Apparel', 60, 20);
+INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Women\'s Yikesd Tee', 'Apparel', 70, 10);
+INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Nike Women\'s Yup Tank', 'Apparel', 80, 20);
+INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Fanny Pack', 'Accessories', 30, 10);
+INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Head Umbrella', 'Accessories', 40, 20);
+INSERT INTO products(ProductName, DepartmentName, Price, StockQuantity) VALUES ('Heart Monitor', 'Electronics', 299.99, 2);
 
 CREATE TABLE departments (
 	DepartmentId INT NOT NULL AUTO_INCREMENT,
@@ -31,7 +31,7 @@ CREATE TABLE departments (
 	PRIMARY KEY(DepartmentId)
 );
 
-INSERT INTO departments(DepartmentName, OverheadCost) VALUES('Running Shoes', 500);
+INSERT INTO departments(DepartmentName, OverheadCost) VALUES('Athletic Shoes', 500);
 INSERT INTO departments(DepartmentName, OverheadCost) VALUES('Apparel', 500);
 INSERT INTO departments(DepartmentName, OverheadCost) VALUES('Electronics', 500);
 INSERT INTO departments(DepartmentName, OverheadCost) VALUES('Accessories', 500);
